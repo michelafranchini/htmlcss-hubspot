@@ -22,6 +22,7 @@ header {
 .container50 {
     width: 50%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .clearfix::after {
@@ -37,6 +38,29 @@ header {
     float: right;
 }
 
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+    color: #32495b;
+}
+
+p, h5 {
+    font-size: 15px;
+    line-height: 31px;
+    padding: 20px 0; 
+}
+
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size:22px;
+}
+
+p, h2, h5, h3 {
+    color: #32495b;
+    font-weight: 700;
+}
 .btn {
     text-decoration: none;
     padding: 10px;
@@ -47,6 +71,10 @@ header {
 .btn-orange {
     background-color: #fe775a;
     color: white;
+}
+
+.bg-lightblue {
+    background-color: #f4f9fd;
 }
 /* header */
 .top-header {
@@ -113,15 +141,7 @@ header {
     transform: translate(0, -50%);
     color: #32495b;
 }
-.jumbotron h1 {
-    font-size: 60px;
-    line-height: 60px;
-}
-.jumbotron h5 {
-    font-size: 15px;
-    line-height: 31px;
-    padding: 20px 0;
-}
+
 .jumbotron a {
     display: inline-block;
     padding: 20px;
@@ -131,4 +151,28 @@ header {
     height: 90px;
     border-bottom: 3px solid #32495b ;
     background-color: #afebe4;
+}
+
+/* sezione immagine al centro e testo sotto */
+#cube-img {
+    height: 200px;
+    margin-top: 40px;
+}
+
+/* sezione rettangolo bianco con immagine sx e testo dx */
+.icon100 {
+    display: block;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.top-section {
+    background-color: white;
+}
+.top-section a {
+    display: block;
+}
+
+.top-section-text {
+    width: 70%;
 }
