@@ -56,11 +56,16 @@ h2 {
 h3 {
     font-size:22px;
 }
-
-p, h2, h5, h3 {
+h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+p, h2, h5, h3, h4 {
     color: #32495b;
     font-weight: 700;
 }
+
+/* bottoni */
 .btn {
     text-decoration: none;
     padding: 10px;
@@ -72,13 +77,24 @@ p, h2, h5, h3 {
     background-color: #fe775a;
     color: white;
 }
-
+a.btn.btn-orange:hover {
+    background-color: rgb(254 119 90 / 57%);
+    color: white;
+}
+a.btn:hover{
+    background-color: rgb(254 119 90 / 57%);
+    color: white;
+}
+/* background */
 .bg-lightblue {
     background-color: #f4f9fd;
 }
 /* header */
 .top-header {
+    position: fixed;
+    z-index: 2;
     height: 80px;
+    width: 100%;
     background-color: #f4f9fd;
     border-bottom: 1px solid #32495b;
 }
@@ -88,7 +104,7 @@ p, h2, h5, h3 {
 .list-inline {
     list-style: none;
 }
-.list-inline a {
+.list-inline a:not(.btn-orange,.btn) {
     text-decoration: none;
     color: #33475b;
 }
@@ -114,7 +130,8 @@ p, h2, h5, h3 {
 
 /* header logo e navbar */
 .header-nav {
-    height: 80px;
+    height: 161px;
+    padding-top: 81px;
     background-color: white;
 }
 
@@ -164,15 +181,85 @@ p, h2, h5, h3 {
     display: block;
     height: 100px;
     margin-bottom: 20px;
+    margin: auto;
 }
 
 .top-section {
     background-color: white;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 7px;
 }
 .top-section a {
     display: block;
+    width: 28%;
+    padding: 20px;
+    margin: auto;
 }
 
 .top-section-text {
-    width: 70%;
+    width: 60%;
+    padding: 3%;
+}
+
+.top-section-img {
+    width: 30%;
+    padding: 4% 0;
+}
+
+.top-section-text h4 {
+    display: inline-block;
+}
+.top-section-text hr {
+    display: inline-block;
+    width: 35%;
+    margin: 0 0 4px 15px;
+    border: 1px solid grey;
+}
+.check-list li {
+    list-style: none;
+    margin: 20px 20px 0 0 ;
+    line-height: 6px;
+    text-align: left;
+    color: #33475b;
+}
+.top-section li {
+    display: inline-block;    
+}
+.check-list li::before {
+    content:"\2714";
+    color: white;
+    background-color: #fe775a;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/* sezione a tre colonne  */
+.aside {
+    width: 30%;
+    padding: 30px 55px;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 0px 0px 7px;
+    background-color: white;
+}
+.aside-center {
+    margin: 0 5%;
+}
+
+#hr-aside {
+    margin: 50px 0 40px 0;
+    border: 1px solid grey;
+}
+
+.aside a {
+    display: block;
+    width: 38%;
+    margin: 12% 30% 0;
+}
+
+/* sezione color petrolio */
+.bg-aqua {
+    background-color: #00a6bb;
+    background-image: linear-gradient(to right, #00a6bb, #00bca5);
+    height: 1000px;
 }
