@@ -353,6 +353,8 @@ a:not(.btn, .btn-orange):hover {
     height: 436px;
     margin-bottom: 100px;
 }
+
+
 /* footer */
 footer {
     background-color: #32495b;
@@ -360,11 +362,33 @@ footer {
 }
 footer h5,
 footer a {
-    color: white;
+    text-decoration: none;
+    color: #dadee0;
 }
-footer a {
+footer li {
+    list-style: none;
+    padding-bottom: 15px;
 
 }
 .column {
     width: 25%;
+}
+
+#button-footer {
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #dadee0;
+    color: #32495b;
+}
+#button-footer:hover {
+    background-color: #0091ae;
+    color: #dadee0;
+    border: 1px solid #dadee0;
+}
+
+.fab {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
 }
