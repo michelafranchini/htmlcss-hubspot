@@ -11,12 +11,9 @@ body {
 header {
     position: relative;
 }
-.support-header {
-    position: relative ;
-}
 
-.container80 {
-    width: 80%;
+.container70 {
+    width: 70%;
     margin: 0 auto;
 }
 .container50 {
@@ -38,20 +35,17 @@ header {
     float: right;
 }
 
+p, h2, h5, h3, h4 {
+    color: #32495b;
+    font-weight: 700;
+}
 h1 {
     font-size: 60px;
     line-height: 60px;
     color: #32495b;
 }
-
-p, h5 {
-    font-size: 15px;
-    line-height: 31px;
-    padding: 20px 0; 
-}
-
 h2 {
-    font-size: 30px;
+    font-size: 40px;
 }
 h3 {
     font-size:22px;
@@ -60,10 +54,17 @@ h4 {
     text-transform: uppercase;
     font-size: 18px;
 }
-p, h2, h5, h3, h4 {
-    color: #32495b;
-    font-weight: 700;
+h5 {
+    font-size: 15px;
+    line-height: 31px;
+    padding: 20px 0; 
 }
+p {
+    font-size: 17px;
+    line-height: 31px;
+    padding: 20px 0; 
+}
+
 
 /* bottoni */
 .btn {
@@ -108,7 +109,10 @@ a.btn:hover{
     text-decoration: none;
     color: #33475b;
 }
-
+a:not(.btn, .btn-orange):hover {
+    color: #0091ae;
+    text-decoration: underline;
+}
 .list-inline li {
     display: inline-block;
     padding: 0 7px;
@@ -154,7 +158,7 @@ a.btn:hover{
     position: absolute;
     width: 25%;
     top: 45%;
-    left: 10%;
+    left: 15%;
     transform: translate(0, -50%);
     color: #32495b;
 }
@@ -187,11 +191,12 @@ a.btn:hover{
 .top-section {
     background-color: white;
     margin-bottom: 50px;
+    padding: 30px;
     box-shadow: 0px 0px 7px;
 }
 .top-section a {
     display: block;
-    width: 28%;
+    width: 33%;
     padding: 20px;
     margin: auto;
 }
@@ -204,6 +209,9 @@ a.btn:hover{
 .top-section-img {
     width: 30%;
     padding: 4% 0;
+}
+.top-section img {
+    margin-bottom: 20px;
 }
 
 .top-section-text h4 {
@@ -227,10 +235,11 @@ a.btn:hover{
 }
 .check-list li::before {
     content:"\2714";
-    color: white;
-    background-color: #fe775a;
     border-radius: 50%;
     margin-right: 15px;
+    padding: 0 5px;
+    color: white;
+    background-color: #fe775a;
 }
 
 /* sezione a tre colonne  */
@@ -256,10 +265,61 @@ a.btn:hover{
     width: 38%;
     margin: 12% 30% 0;
 }
+.aside img {
+    margin-bottom: 20px;
+}
 
 /* sezione color petrolio */
 .bg-aqua {
-    background-color: #00a6bb;
     background-image: linear-gradient(to right, #00a6bb, #00bca5);
-    height: 1000px;
+    text-align: center;
+    /* height: 1000px; */
+}
+
+/* testo sezione petrolio */
+.aqua-text {
+    padding-top: 55px;
+}
+.aqua-text h2,
+.aqua-text p,
+.row-element h2,
+.row-element p  {
+    color: white;
+    
+}
+
+/* tabella sezione petrolio */
+.aqua-table {
+    padding: 40px 0 90px 0;
+}
+
+.row img {
+    height: 30px;
+}
+.row-element {
+    width: 25%;
+    padding: 30px;
+}
+.row span {
+    font-size: 25px;
+}
+.row p {
+    padding: 0;
+    font-weight: 400;
+}
+.row-element h2::after {
+    content: "\002B";
+    font-size: 25px;
+}
+
+.first-row {
+    border-bottom: 1px solid white;
+}
+
+.border-element {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+.border-element-left {
+    border-left: 1px solid white;
 }
