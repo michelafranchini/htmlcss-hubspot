@@ -358,7 +358,6 @@ a:not(.btn, .btn-orange):hover {
 /* footer */
 footer {
     background-color: #32495b;
-    height: 1000px;
 }
 footer h5,
 footer a {
@@ -391,4 +390,20 @@ footer li {
     font-weight: 400;
     font-size: 20px;
     padding: 10px;
+}
+
+.lang {
+    text-align: center;
+    padding-top: 65px;
+}
+.lang li,
+.credits li {
+    display: inline-block;
+    padding: 20px;
+}
+.credits {
+    padding: 30px 0;
+}
+.credits h5 {
+    padding: 0;
 }
