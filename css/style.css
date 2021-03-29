@@ -57,12 +57,12 @@ h4 {
 h5 {
     font-size: 15px;
     line-height: 31px;
-    padding: 20px 0; 
+    padding: 20px 0;
 }
 p {
     font-size: 17px;
     line-height: 31px;
-    padding: 20px 0; 
+    padding: 20px 0;
 }
 
 
@@ -99,7 +99,7 @@ a.btn:hover{
     background-color: #f4f9fd;
     border-bottom: 1px solid #32495b;
 }
-#line { 
+#line {
     padding: 15px
 }
 .list-inline {
@@ -231,7 +231,7 @@ a:not(.btn, .btn-orange):hover {
     color: #33475b;
 }
 .top-section li {
-    display: inline-block;    
+    display: inline-block;
 }
 .check-list li::before {
     content:"\2714";
@@ -285,7 +285,7 @@ a:not(.btn, .btn-orange):hover {
 .row-element h2,
 .row-element p  {
     color: white;
-    
+
 }
 
 /* tabella sezione petrolio */
@@ -322,4 +322,49 @@ a:not(.btn, .btn-orange):hover {
 }
 .border-element-left {
     border-left: 1px solid white;
+}
+
+/* ultima sezione sfondo bianco */
+
+.white-section-top-text {
+    width: 30%;
+    padding: 60px 0 0 115px;
+}
+.logos {
+    width: 70%;
+    text-align: right;
+    padding: 80px;
+}
+.row-logo {
+    padding-bottom: 30px;
+}
+.row-logo img {
+    max-width: 170px;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+.white-section-title {
+    padding-top: 60px;
+    width: 40%;
+}
+
+.white-section-main img {
+    height: 436px;
+    margin-bottom: 100px;
+}
+/* footer */
+footer {
+    background-color: #32495b;
+    height: 1000px;
+}
+footer h5,
+footer a {
+    color: white;
+}
+footer a {
+
+}
+.column {
+    width: 25%;
 }
