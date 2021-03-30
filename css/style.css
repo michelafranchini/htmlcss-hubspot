@@ -307,9 +307,13 @@ a:not(.btn, .btn-orange):hover {
     padding: 0;
     font-weight: 400;
 }
+.row-element h2 {
+    line-height: 40px;
+}
 .row-element h2::after {
     content: "\002B";
     font-size: 25px;
+    vertical-align: top;
 }
 
 .first-row {
