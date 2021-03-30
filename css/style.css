@@ -226,7 +226,6 @@ a:not(.btn, .btn-orange):hover {
     border: 1px solid grey;
 }
 
-
 .check-list li {
     list-style: none;
     margin: 20px 20px 0 0 ;
@@ -336,7 +335,6 @@ a:not(.btn, .btn-orange):hover {
 }
 
 /* ultima sezione sfondo bianco */
-
 .white-section-top-text {
     width: 30%;
     padding: 60px 0 0 115px;
@@ -417,4 +415,42 @@ footer li {
 }
 .credits h5 {
     padding: 0;
+}
+
+/* blocco chat */
+.chatbox {
+    width: 13%;
+    position: fixed;
+    right: 1%;
+    bottom: 13%;
+}
+.chatbox p {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 30px 20px 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #425b76;
+    background-color: white;
+}
+.chatbox p:hover {
+    text-decoration: none;
+    color: #0091ae;
+}
+
+#avatar {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#chat-logo {
+    position: absolute;
+    border-radius: 50%;
+    padding: 13px;
+    background-color: #425b76;
+    bottom: -15%;
+    right: 0;
+    transform: translate(0%, 115%);
 }
